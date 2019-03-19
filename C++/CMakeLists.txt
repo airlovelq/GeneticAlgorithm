@@ -15,5 +15,5 @@ if(WIN32 AND NOT MINGW)
 endif()
 project(GeneticAlgorithm)
 include_directories(${CMAKE_SOURCE_DIR})
-add_library(GeneticAlgorithm SHARED GeneticAlgorithmBase.cpp GeneticAlgorithmBase.h)
+add_library(GeneticAlgorithm STATIC GeneticAlgorithmBase.cpp GeneticAlgorithmBase.h)
 
